@@ -7,7 +7,7 @@ makefile -> Compila fimd_Zprocess
 
 - Usando o terminal do linux encontre o diretorio onde se encontra este repositorio ( cd _diretorio_ )
 - Use o makefile para compilar o codigo e criar um bin executavel ( Make bin )
-- Rodando o comando ( ./bin ) teremos a execucao dos processos pai e filho paralelamente
+- Rodando o comando ( make run ) teremos a execucao dos processos pai e filho paralelamente
 - O processo pai ira aguardar por 12s o retorno do processo filho, que ja vai ter finalizado
 - Isso origina um processo zumbi que se auto-destroi
 
